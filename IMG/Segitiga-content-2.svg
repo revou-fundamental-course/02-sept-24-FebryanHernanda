@@ -1,0 +1,22 @@
+<svg id="Keliling_Segitiga" data-name="Keliling Segitiga" xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fadfa1;
+        stroke: #282828;
+        stroke-width: 10px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        font-size: 20.833px;
+        font-family: Rubik;
+        font-style: italic;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M921.17,90.449h0v829.3H91.869Z"/>
+  <text id="Sisi_b_" data-name="Sisi (b)" class="cls-2" transform="translate(4.376 987.705) scale(1.889)">Sisi (b)</text>
+  <text id="Sisi_c_" data-name="Sisi (c)" class="cls-2" transform="translate(873.348 987.705) scale(1.889)">Sisi (c)</text>
+  <text id="Sisi_a_" data-name="Sisi (a)" class="cls-2" transform="translate(871.503 48.838) scale(1.889)">Sisi (a)</text>
+</svg>
