@@ -277,6 +277,7 @@ ul {
 
 .aside-content > h1 {
   font-size: var(--font-subline);
+  color: var(--color-red);
 }
 
 #formku {
@@ -345,12 +346,10 @@ footer {
 @media only screen and (max-width: 573px) {
   .bar-title {
     width: 300px;
-    font-size: 10px;
-    top: -60px;
   }
 
   .bar-title > h6 {
-    margin-top: 73px;
+    font-size: 15px;
   }
   header > h1 {
     font-size: 4rem;
