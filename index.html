@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Matematik Segitiga</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <!-- <div class="container"> -->
+    <header>
+        <div class="bar-title">
+            <h6>RevoU Mini Course Project</h6>
+        </div>
+        <h1>Kalkulator <br> Matematik Segitiga</h1>
+        <p>Website Kalkulator untuk menghitung Luas dan Keliling Segitiga</p>
+    </header>
+
+    <main>
+
+        <section class="section-1">
+
+            <article class="content">
+                <div class="content-title">
+                    <img class="img-content" src="IMG/Segitiga-1.Svg" alt="Segitiga">
+                    <h1>Luas Segitiga</h1>
+                </div>
+
+                <p class="paragraph">
+                    <span>
+                        Luas segitiga adalah ukuran area atau permukaan yang ditutupi oleh sebuah segitiga. Dengan
+                        kata
+                        lain,
+                        luas segitiga menggambarkan seberapa besar daerah di dalam batas-batas segitiga tersebut.
+                        <br><br>
+                        Rumus untuk menghitung luas segitiga adalah:
+                        <br>
+                        <span id="rumus">
+                            <code>
+                                Luas =
+                                <math>
+                                    <maction>
+                                        <mfrac>
+                                            <mn>1</mn>
+                                            <mn>2</mn>
+                                        </mfrac>
+                                    </maction>
+                                </math> x alas x tinggi
+                            </code>
+                        </span>
+                        <br>
+
+                        Keterangan:
+                        <ul>
+                            <li>Alas adalah panjang salah satu sisi segitiga yang dijadikan dasar.</li>
+                            <li>Tinggi adalah jarak tegak lurus dari alas ke titik puncak yang berlawanan dengan
+                                alas.</li>
+                        </ul>
+
+                        Contoh :
+                        Jika sebuah segitiga memiliki alas sepanjang <code id="measurement">8 cm</code> dan tinggi
+                        <code id="measurement">5 cm</code>,
+                        maka luasnya
+                        dapat dihitung sebagai berikut:
+                        <br>
+                        <span id="rumus">
+                            <code>
+                                Luas =
+                                <math>
+                                    <maction>
+                                        <mfrac>
+                                            <mn>1</mn>
+                                            <mn>2</mn>
+                                        </mfrac>
+                                    </maction>
+                                </math> x 8 cm x 5 cm = 20 cm&sup2
+                            </code>
+                        </span>
+
+                </p>
+            </article>
+            <aside class="aside-area">
+                <div class="aside-content">
+                    <h1>Hitung Luas Segitiga</h1>
+                    <img class="img-aside" src="IMG/Segitiga-1.svg" alt="Gambar Hitung Segitiga">
+                    <form id="form-luas">
+
+                        <div class="container-inputbox">
+                            <label for="nilaiA">Nilai Alas <span><code id="measurement">(a)</code></span></label>
+                            <div class="inline-box">
+                                <input class="input-box" type="number" name="nilaiA" id="nilaiA"
+                                    placeholder="Masukan Nilai " required>
+                                <div id="blackbox">
+                                    <span>
+                                        cm
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-inputbox">
+                            <label for="nilaiT">Nilai Tinggi <span><code id="measurement">(t)</code></label>
+                            <div class="inline-box">
+                                <input class="input-box" type="number" name="nilaiT" id="nilaiT"
+                                    placeholder="Masukan Nilai" required>
+                                <div id="blackbox">
+                                    <span>
+                                        cm
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn-hitung">Hitung</button>
+                    </form>
+
+                    <div class="box-answer" id="answer">
+                        <span>Jawaban :</span>
+                        <code>
+                            Luas =
+                            <math>
+                                <maction>
+                                    <mfrac>
+                                        <mn>1</mn>
+                                        <mn>2</mn>
+                                    </mfrac>
+                                </maction>
+                            </math>
+                            <span id="jawaban">x 8 cm x 5 cm = 2</span>
+
+                        </code>
+
+                    </div>
+                    <a class="clear-output" id="clear-output">Reset</a>
+                </div>
+
+            </aside>
+        </section>
+
+        <section class="section-2">
+
+            <article class="content-2">
+                <div class="content-title">
+                    <img class="img-content" src="IMG/Segitiga-2.Svg" alt="Segitiga">
+                    <h1>Keliling Segitiga</h1>
+                </div>
+
+                <p class="paragraph">
+                    Keliling segitiga adalah jumlah panjang semua sisi segitiga. Rumus untuk menghitung keliling
+                    segitiga tergantung pada jenis segitiganya.
+
+                    <h3>1. Keliling Segitiga Umum</h3>
+                    Jika diketahui panjang ketiga sisi segitiga <code id="measurement">𝑎, b, </code> dan <code
+                        id="measurement">c</code>
+                    maka
+                    keliling
+                    segitiga adalah:
+
+                    <span id="rumus">
+                        <code>
+                            Keliling = a + b + c
+                        </code>
+                    </span>
+                    <br>
+
+                    Contoh : Jika sebuah segitiga memiliki sisi-sisi sepanjang <code id="measurement">5 cm, 7 cm,
+                    </code>dan <code id="measurement">8
+                        cm</code> , maka
+                    kelilingnya
+                    adalah:
+                    <br>
+
+                    <span id="rumus">
+                        <code>
+                            Keliling = 5 cm + 7 cm + 8 cm = 20 cm
+                        </code>
+                    </span>
+
+
+
+                </p>
+
+
+            </article>
+
+            <aside class="aside-area-2">
+                <div class="aside-content">
+                    <h1>Hitung Keliling Segitiga</h1>
+                    <img class="img-aside" src="IMG/Segitiga-2.svg" alt="Gambar Hitung Segitiga">
+
+                    <form id="form-keliling">
+                        <div class="container-inputbox">
+                            <label for="sisiA">Nilai Sisi A <span><code id="measurement">(a)</code></span></label>
+                            <div class="inline-box">
+                                <input class="input-box" type="number" name="sisiA" id="sisiA"
+                                    placeholder="Masukan Nilai " required>
+                                <div id="blackbox">
+                                    <span>
+                                        cm
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-inputbox">
+                            <label for="sisiB">Nilai Sisi B <span><code id="measurement">(b)</code></label>
+                            <div class="inline-box">
+                                <input class="input-box" name="sisiB" id="sisiB" type="number"
+                                    placeholder="Masukan Nilai " required>
+                                <div id="blackbox">
+                                    <span>
+                                        cm
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-inputbox">
+                            <label for="sisiC">Nilai Sisi C <span><code id="measurement">(c)</code></label>
+                            <div class="inline-box">
+                                <input class="input-box" type="number" id="sisiC" name="sisiC"
+                                    placeholder="Masukan Nilai " required>
+                                <div id="blackbox">
+                                    <span>
+                                        cm
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn-hitung">Hitung</button>
+
+                    </form>
+
+                    <div class="box-answer" id="answer-2">
+                        <span>Jawaban :</span>
+                        <code>
+                            Keliling = <span id="jawaban-2">a + b + c</span>
+                        </code>
+                    </div>
+
+                    <a class="clear-output" id="clear-output-2">Reset</a>
+                </div>
+
+            </aside>
+        </section>
+
+
+    </main>
+
+    <footer>© 2024 Copyright: Kalkulator Matematik</footer>
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<svg id="Luast_Segitiga" data-name="Luast Segitiga" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fadfa1;
+        stroke: #000;
+        stroke-width: 10px;
+      }
+
+      .cls-1, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        font-size: 20.833px;
+        font-family: Rubik;
+        font-style: italic;
+      }
+
+      .cls-3 {
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#c96868"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Luas_Segitiga" data-name="Luas Segitiga">
+    <path id="Triangle_1" data-name="Triangle 1" class="cls-1" d="M500,45.1L985.271,885.588H14.729Z"/>
+    <text id="Alas_A_" data-name="Alas (A)" class="cls-2" transform="translate(432.916 967.081) scale(1.822)">Alas (A)</text>
+    <text id="Tinggi_T_" data-name="Tinggi (T)" class="cls-2" transform="translate(268.919 597.177) scale(1.822)">Tinggi (T)</text>
+    <g id="garis_tengah" data-name="garis tengah" class="cls-3">
+      <path class="cls-4" d="M489.978,107.059h20.044v65.6H489.978v-65.6h0Z"/>
+      <path id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-4" d="M489.978,218.212h20.044v65.6H489.978v-65.6h0Z"/>
+      <path id="Rectangle_1_copy_2" data-name="Rectangle 1 copy 2" class="cls-4" d="M489.978,329.366h20.044v65.6H489.978v-65.6h0Z"/>
+      <path id="Rectangle_1_copy_3" data-name="Rectangle 1 copy 3" class="cls-4" d="M489.978,440.519h20.044v65.6H489.978v-65.6h0Z"/>
+      <path id="Rectangle_1_copy_4" data-name="Rectangle 1 copy 4" class="cls-4" d="M489.978,551.672h20.044v65.6H489.978v-65.6h0Z"/>
+      <path id="Rectangle_1_copy_5" data-name="Rectangle 1 copy 5" class="cls-4" d="M489.978,662.826h20.044v65.6H489.978v-65.6h0Z"/>
+      <path id="Rectangle_1_copy_6" data-name="Rectangle 1 copy 6" class="cls-4" d="M489.978,773.979h20.044v65.6H489.978v-65.6h0Z"/>
+    </g>
+  </g>
+</svg>
